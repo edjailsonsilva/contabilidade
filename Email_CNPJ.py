@@ -8,8 +8,8 @@ from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.mime.application import MIMEApplication
 
-diretorio = 'Z:\Funcionários RC Associados\Edjailson\Scripts\Enviar emails'
-diretorio_enviados = 'Z:\Funcionários RC Associados\Edjailson\Scripts\Enviar emails/Enviados'
+diretorio = 'Z:\Scripts\Enviar emails'
+diretorio_enviados = 'Z:\Enviados'
 tabela = pd.read_csv('Cadastros.csv')
 print(tabela.columns)
 
